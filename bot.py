@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 
 import os
 
-TOKEN = os.getenv("8272843227:AAEJu-0l-JtQDwZM9CmNb_FshmCE_PDoXEQ")
+TOKEN = os.getenv("TOKEN")
 GOOGLE_SHEETS_URL = "https://script.google.com/macros/s/AKfycbxWKcas3Q1i3jIt3gp2t8vxfs3PhIzv7ecz1SBVROGbGvRdhX0cZeCXQXUN12qHYTs/exec"
 
 users = {}
