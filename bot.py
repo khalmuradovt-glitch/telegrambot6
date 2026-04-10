@@ -263,4 +263,9 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(CallbackQueryHandler(button))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, text))
 
-app.run_polling()
+import asyncio
+
+async def main():
+    await app.run_polling()
+
+asyncio.run(main())
